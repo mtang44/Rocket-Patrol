@@ -4,6 +4,8 @@ let config = {
     height: 480,
     scene: [ Menu, Play ]
 }
+
+
 let game = new Phaser.Game(config)
 //reserve keyboard bindings 
 let keyFIRE, keyRESET,keyLEFT,keyRIGHT
